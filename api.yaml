@@ -1,0 +1,275 @@
+openapi: 3.0.3
+info:
+  title: Team KPI Predictor API
+  version: "5.0.0"
+  description: >
+    API для расчета KPI команды и анализа результатов с использованием LLM или fallback-алгоритма.
+
+servers:
+  - url: http://localhost:8000
+    description: Локальный сервер разработки
+
+paths:
+  /:
+    get:
+      summary: Информация о сервисе
+      description: Возвращает базовую информацию о сервисе и доступные эндпоинты.
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Team KPI Predictor API"
+                  version:
+                    type: string
+                    example: "5.0.0"
+                  endpoints:
+                    type: array
+                    items:
+                      type: string
+                    example: ["/predict_kpi", "/analyze_kpi"]
+
+  /health:
+    get:
+      summary: Проверка состояния API
+      description: Возвращает статус работоспособности сервиса.
+      responses:
+        '200':
+          description: Успешный ответ
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: healthy
+                  version:
+                    type: string
+                    example: "5.0.0"
+                  endpoints:
+                    type: array
+                    items:
+                      type: string
+                    example: ["/predict_kpi", "/analyze_kpi"]
+
+  /predict_kpi:
+    post:
+      summary: Расчет KPI команды и разработчиков
+      description: >
+        Принимает JSON с информацией о проекте, репозитории и коммитах, 
+        рассчитывает метрики и KPI для команды и каждого разработчика.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BackendResponse'
+      responses:
+        '200':
+          description: KPI рассчитаны успешно
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  message:
+                    type: string
+                    example: KPI рассчитаны успешно
+                  data:
+                    $ref: '#/components/schemas/KPIResult'
+        '500':
+          description: Ошибка при расчете KPI
+
+  /analyze_kpi:
+    post:
+      summary: Анализ KPI (LLM или fallback)
+      description: >
+        Принимает результат из /predict_kpi и выполняет анализ с помощью LLM или fallback-алгоритма.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/KPIResult'
+      responses:
+        '200':
+          description: Успешный анализ KPI
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  analysis:
+                    type: string
+                    example: "Командный KPI низкий. Рекомендации: ..."
+        '500':
+          description: Ошибка анализа KPI
+
+components:
+  schemas:
+    BackendResponse:
+      type: object
+      required: [success, message, project, repository, commits]
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          example: Данные получены
+        project:
+          type: object
+          properties:
+            key:
+              type: string
+              example: PRJ-001
+            name:
+              type: string
+              example: Grocery Senpai
+            description:
+              type: string
+              example: Система анализа покупок
+        repository:
+          type: object
+          properties:
+            name:
+              type: string
+              example: grocery-senpai
+            createdAt:
+              type: string
+              example: 2025-10-01T00:00:00Z
+        commits:
+          type: array
+          items:
+            $ref: '#/components/schemas/Commit'
+
+    Commit:
+      type: object
+      properties:
+        hash:
+          type: string
+          example: 1a2b3c4d
+        message:
+          type: string
+          example: "fix: исправлен баг с расчетом стоимости"
+        author:
+          $ref: '#/components/schemas/Author'
+        committer:
+          $ref: '#/components/schemas/Committer'
+        createdAt:
+          type: string
+          example: 2025-10-20T12:30:00Z
+        parents:
+          type: array
+          items:
+            type: string
+        branches:
+          type: array
+          items:
+            type: string
+        branch_names:
+          type: array
+          items:
+            type: string
+
+    Author:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Alice Smith
+        email:
+          type: string
+          example: alice@example.com
+
+    Committer:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Bob Johnson
+        email:
+          type: string
+          example: bob@example.com
+
+    KPIResult:
+      type: object
+      description: Результат работы /predict_kpi
+      properties:
+        team_kpi:
+          type: number
+          example: 73.25
+        team_metrics:
+          type: object
+          properties:
+            commits_total:
+              type: integer
+              example: 250
+            team_size:
+              type: integer
+              example: 5
+            bus_factor:
+              type: integer
+              example: 3
+            feature_ratio:
+              type: number
+              example: 0.45
+            fix_ratio:
+              type: number
+              example: 0.25
+            refactor_ratio:
+              type: number
+              example: 0.1
+            test_ratio:
+              type: number
+              example: 0.1
+            docs_ratio:
+              type: number
+              example: 0.1
+            avg_commits_per_dev:
+              type: number
+              example: 50
+        developers:
+          type: object
+          additionalProperties:
+            type: object
+            properties:
+              kpi:
+                type: number
+                example: 80.5
+              metrics:
+                type: object
+                properties:
+                  feature_ratio:
+                    type: number
+                    example: 0.5
+                  fix_ratio:
+                    type: number
+                    example: 0.2
+                  refactor_ratio:
+                    type: number
+                    example: 0.1
+                  test_ratio:
+                    type: number
+                    example: 0.15
+                  docs_ratio:
+                    type: number
+                    example: 0.05
+                  total_commits:
+                    type: integer
+                    example: 75
+                  active_days:
+                    type: integer
+                    example: 21

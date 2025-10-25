@@ -1,10 +1,3 @@
-### Генерация датасета и тренировка модели
-```
-python dataset_generator.py
-python train_team_model.py 
-python train_individual_model.py 
-```
-
 ### Сборка
 ``` 
 pip install -r requirements.txt

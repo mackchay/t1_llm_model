@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  # === Ollama (LLM runtime) ===
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"   # Ollama API endpoint
+    volumes:
+      - ollama_models:/root/.ollama  # хранение моделей
+    entrypoint: >
+      sh -c "
+      /bin/ollama serve &
+      sleep 10 &&
+      echo '🚀 Подгружаем модель qwen2.5-coder:7b-instruct-q4_K_M...' &&
+      ollama pull qwen2.5-coder:7b-instruct-q4_K_M &&
+      tail -f /dev/null
+      "
+
+  # === FastAPI сервис ===
+  api:
+    build: .
+    container_name: kpi-api
+    restart: unless-stopped
+    depends_on:
+      - ollama
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    command: >
+      sh -c "
+      pip install -r requirements.txt &&
+      uvicorn api:app --host 0.0.0.0 --port 8000 --reload
+      "
+    volumes:
+      - .:/app
+    working_dir: /app
+
+volumes:
+  ollama_models:

@@ -1,857 +1,580 @@
 {
-    "team_kpi": 29.53,
-    "developers": {
-        "Dimitris Rempapis": {
-            "kpi": 60.78,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.56
-            }
+    "success": true,
+    "message": "KPI рассчитаны успешно",
+    "data": {
+        "team_kpi": 16.56,
+        "team_metrics": {
+            "commits_total": 250.0,
+            "merge_conflicts": 0.0,
+            "bus_factor": 5.0,
+            "refactor_commits": 0.0,
+            "fix_commits": 60.0,
+            "feature_commits": 0.0,
+            "docs_commits": 34.0,
+            "test_commits": 0.0,
+            "refactor_ratio": 0.0,
+            "fix_ratio": 0.24,
+            "feature_ratio": 0.0,
+            "docs_ratio": 0.136,
+            "test_ratio": 0.0,
+            "active_days": 132.0,
+            "team_size": 46.0,
+            "avg_commits_per_dev": 5.434782608695652,
+            "avg_complexity": 1.2311679999999998
         },
-        "Armin Braun": {
-            "kpi": 60.78,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.56
-            }
-        },
-        "Brian Seeders": {
-            "kpi": 36.67,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.05,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 22,
-                "active_days": 20,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.16
-            }
-        },
-        "Nick Tindall": {
-            "kpi": 57.6,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.8,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 5,
-                "active_days": 5,
-                "feature_commits": 0,
-                "fix_commits": 4,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.49
-            }
-        },
-        "elasticsearchmachine": {
-            "kpi": 35.08,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.24,
-                "total_commits": 45,
-                "active_days": 26,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 11,
-                "avg_complexity": 1.01
-            }
-        },
-        "Mariusz Józala": {
-            "kpi": 49.1,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.42,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 12,
-                "active_days": 10,
-                "feature_commits": 0,
-                "fix_commits": 5,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.35
-            }
-        },
-        "Rene Groeschke": {
-            "kpi": 52.06,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.33,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 21,
-                "active_days": 20,
-                "feature_commits": 0,
-                "fix_commits": 7,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.32
-            }
-        },
-        "Artem Prigoda": {
-            "kpi": 61.87,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 2,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.87
-            }
-        },
-        "David Turner": {
-            "kpi": 43.37,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.33,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.22,
-                "total_commits": 9,
-                "active_days": 7,
-                "feature_commits": 0,
-                "fix_commits": 3,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 2,
-                "avg_complexity": 1.27
-            }
-        },
-        "Joe Gallo": {
-            "kpi": 28.2,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 2,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
-            }
-        },
-        "Ryan Ernst": {
-            "kpi": 47.94,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.5,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 6,
-                "active_days": 6,
-                "feature_commits": 0,
-                "fix_commits": 3,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.38
-            }
-        },
-        "Christoph Büscher": {
-            "kpi": 60.78,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.56
-            }
-        },
-        "Luigi Dell'Aquila": {
-            "kpi": 45.18,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.5,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.38
-            }
-        },
-        "Patrick Doyle": {
-            "kpi": 25.56,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 1.0,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 2,
-                "avg_complexity": 0.96
-            }
-        },
-        "Simon Cooper": {
-            "kpi": 38.03,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.11,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.11,
-                "total_commits": 9,
-                "active_days": 9,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 1,
-                "avg_complexity": 1.27
-            }
-        },
-        "Kostas Krikellas": {
-            "kpi": 60.78,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.56
-            }
-        },
-        "Yang Wang": {
-            "kpi": 61.56,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 2,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.56
-            }
-        },
-        "Mark Vieira": {
-            "kpi": 39.61,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.14,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 22,
-                "active_days": 17,
-                "feature_commits": 0,
-                "fix_commits": 3,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
-            }
-        },
-        "Niels Bauman": {
-            "kpi": 26.88,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.5,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 1,
-                "avg_complexity": 1.08
-            }
-        },
-        "John Wagster": {
-            "kpi": 45.18,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.5,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.38
-            }
-        },
-        "Andrei Stefan": {
-            "kpi": 27.6,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
-            }
-        },
-        "Mariusz Jozala": {
-            "kpi": 21.65,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.5,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.15
-            }
-        },
-        "Nhat Nguyen": {
-            "kpi": 28.2,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
-            }
-        },
-        "shainaraskas": {
-            "kpi": 33.66,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.12,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.75,
-                "total_commits": 8,
-                "active_days": 3,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 6,
-                "avg_complexity": 1.06
-            }
-        },
-        "Tim Vernum": {
-            "kpi": 46.56,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.5,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 4,
-                "active_days": 3,
-                "feature_commits": 0,
-                "fix_commits": 2,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.38
-            }
-        },
-        "Athena Brown": {
-            "kpi": 36.4,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.2,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.2,
-                "total_commits": 5,
-                "active_days": 3,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 1,
-                "avg_complexity": 1.28
-            }
-        },
-        "Pooya Salehi": {
-            "kpi": 27.6,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
-            }
-        },
-        "Nicole Albee": {
-            "kpi": 42.84,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.68
-            }
-        },
-        "Slobodan Adamović": {
-            "kpi": 36.84,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.44
-            }
-        },
-        "Mayya Sharipova": {
-            "kpi": 27.6,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
-            }
-        },
-        "Albert Zaharovits": {
-            "kpi": 51.56,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.67,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 3,
-                "active_days": 3,
-                "feature_commits": 0,
-                "fix_commits": 2,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.44
-            }
-        },
-        "Craig Taverner": {
-            "kpi": 25.08,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 1.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 1,
-                "avg_complexity": 0.96
-            }
-        },
-        "Francois-Clement Brossard": {
-            "kpi": 60.78,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.56
-            }
-        },
-        "Dianna Hohensee": {
-            "kpi": 60.78,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.56
-            }
-        },
-        "Iraklis Psaroudakis": {
-            "kpi": 27.6,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
-            }
-        },
-        "Ioana Tagirta": {
-            "kpi": 30.0,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 5,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
-            }
-        },
-        "Benjamin Trent": {
-            "kpi": 48.98,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.38,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.5,
-                "total_commits": 16,
-                "active_days": 4,
-                "feature_commits": 0,
-                "fix_commits": 6,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 8,
-                "avg_complexity": 1.26
-            }
-        },
-        "Martijn van Groningen": {
-            "kpi": 43.14,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.21,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 14,
-                "active_days": 5,
-                "feature_commits": 0,
-                "fix_commits": 3,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.28
-            }
-        },
-        "David Kyle": {
-            "kpi": 10.5,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.0
-            }
-        },
-        "Jake Landis": {
-            "kpi": 46.56,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.5,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 4,
-                "active_days": 4,
-                "feature_commits": 0,
-                "fix_commits": 2,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.38
-            }
-        },
-        "Max Hniebergall": {
-            "kpi": 10.5,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.0
-            }
-        },
-        "Bogdan Pintea": {
-            "kpi": 61.56,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 2,
-                "active_days": 2,
-                "feature_commits": 0,
-                "fix_commits": 2,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.56
-            }
-        },
-        "nervo": {
-            "kpi": 27.6,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
-            }
-        },
-        "István Zoltán Szabó": {
-            "kpi": 25.08,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 1.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 1,
-                "avg_complexity": 0.96
-            }
-        },
-        "Moritz Mack": {
-            "kpi": 60.78,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 1.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 1,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.56
-            }
-        },
-        "Chris Hegarty": {
-            "kpi": 27.6,
-            "metrics": {
-                "feature_ratio": 0.0,
-                "fix_ratio": 0.0,
-                "refactor_ratio": 0.0,
-                "test_ratio": 0.0,
-                "docs_ratio": 0.0,
-                "total_commits": 1,
-                "active_days": 1,
-                "feature_commits": 0,
-                "fix_commits": 0,
-                "refactor_commits": 0,
-                "test_commits": 0,
-                "docs_commits": 0,
-                "avg_complexity": 1.2
+        "developers": {
+            "Dimitris Rempapis": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Armin Braun": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Brian Seeders": {
+                "kpi": 19.09,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.045454545454545456,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 22,
+                    "active_days": 20
+                }
+            },
+            "Nick Tindall": {
+                "kpi": 4.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.8,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 5,
+                    "active_days": 5
+                }
+            },
+            "elasticsearchmachine": {
+                "kpi": 22.44,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.24444444444444444,
+                    "total_commits": 45,
+                    "active_days": 26
+                }
+            },
+            "Mariusz Józala": {
+                "kpi": 11.67,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.4166666666666667,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 12,
+                    "active_days": 10
+                }
+            },
+            "Rene Groeschke": {
+                "kpi": 13.33,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.3333333333333333,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 21,
+                    "active_days": 20
+                }
+            },
+            "Artem Prigoda": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "David Turner": {
+                "kpi": 15.56,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.3333333333333333,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.2222222222222222,
+                    "total_commits": 9,
+                    "active_days": 7
+                }
+            },
+            "Joe Gallo": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 2,
+                    "active_days": 1
+                }
+            },
+            "Ryan Ernst": {
+                "kpi": 10.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.5,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 6,
+                    "active_days": 6
+                }
+            },
+            "Christoph Büscher": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Luigi Dell'Aquila": {
+                "kpi": 10.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.5,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "Patrick Doyle": {
+                "kpi": 30.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 1.0,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "Simon Cooper": {
+                "kpi": 18.89,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.1111111111111111,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.1111111111111111,
+                    "total_commits": 9,
+                    "active_days": 9
+                }
+            },
+            "Kostas Krikellas": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Yang Wang": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "Mark Vieira": {
+                "kpi": 17.27,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.13636363636363635,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 22,
+                    "active_days": 17
+                }
+            },
+            "Niels Bauman": {
+                "kpi": 25.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.5,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "John Wagster": {
+                "kpi": 10.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.5,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "Andrei Stefan": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Mariusz Jozala": {
+                "kpi": 10.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.5,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "Nhat Nguyen": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "shainaraskas": {
+                "kpi": 25.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.125,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.75,
+                    "total_commits": 8,
+                    "active_days": 3
+                }
+            },
+            "Tim Vernum": {
+                "kpi": 10.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.5,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 4,
+                    "active_days": 3
+                }
+            },
+            "Athena Brown": {
+                "kpi": 18.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.2,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.2,
+                    "total_commits": 5,
+                    "active_days": 3
+                }
+            },
+            "Pooya Salehi": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Nicole Albee": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Slobodan Adamović": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "Mayya Sharipova": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Albert Zaharovits": {
+                "kpi": 6.67,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.6666666666666666,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 3,
+                    "active_days": 3
+                }
+            },
+            "Craig Taverner": {
+                "kpi": 30.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 1.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Francois-Clement Brossard": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Dianna Hohensee": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Iraklis Psaroudakis": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Ioana Tagirta": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 5,
+                    "active_days": 1
+                }
+            },
+            "Benjamin Trent": {
+                "kpi": 17.5,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.375,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.5,
+                    "total_commits": 16,
+                    "active_days": 4
+                }
+            },
+            "Martijn van Groningen": {
+                "kpi": 15.71,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.21428571428571427,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 14,
+                    "active_days": 5
+                }
+            },
+            "David Kyle": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Jake Landis": {
+                "kpi": 10.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.5,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 4,
+                    "active_days": 4
+                }
+            },
+            "Max Hniebergall": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Bogdan Pintea": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 2,
+                    "active_days": 2
+                }
+            },
+            "nervo": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "István Zoltán Szabó": {
+                "kpi": 30.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 1.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Moritz Mack": {
+                "kpi": 0.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 1.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
+            },
+            "Chris Hegarty": {
+                "kpi": 20.0,
+                "metrics": {
+                    "feature_ratio": 0.0,
+                    "fix_ratio": 0.0,
+                    "refactor_ratio": 0.0,
+                    "test_ratio": 0.0,
+                    "docs_ratio": 0.0,
+                    "total_commits": 1,
+                    "active_days": 1
+                }
             }
         }
-    },
-    "team_metrics": {
-        "commits_total": 250.0,
-        "merge_conflicts": 0.0,
-        "bus_factor": 5.0,
-        "refactor_commits": 0.0,
-        "fix_commits": 60.0,
-        "feature_commits": 0.0,
-        "docs_commits": 34.0,
-        "test_commits": 0.0,
-        "refactor_ratio": 0.0,
-        "fix_ratio": 0.24,
-        "feature_ratio": 0.0,
-        "docs_ratio": 0.136,
-        "test_ratio": 0.0,
-        "active_days": 132.0,
-        "team_size": 46.0,
-        "avg_commits_per_dev": 5.434782608695652,
-        "avg_complexity": 1.2311679999999998
-    },
-    "team_size": 46,
-    "formulas": {
-        "team": "Productivity + Code Quality + Technical Health",
-        "individual": "Activity + Features + Fixes + Quality + Process"
     }
 }
